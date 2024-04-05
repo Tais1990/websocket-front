@@ -1,0 +1,14 @@
+@import "./variables";
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import '@/components/ListMessages/ListMessages.scss';
+// @import '@/layouts/WorkspaceLayout/WorkspaceLayout.scss';
+@import '@/components/NewMessage/NewMessage.scss';
+// @import '@/components/TimePad/TimePad.scss';
+// файл, отвечающий за стиль в конкретном проекте
+// TODO перенести тоже в отдельный файл верстук для бердинга, если у нас вообще ещё актуален этот проект

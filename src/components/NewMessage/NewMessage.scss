@@ -1,0 +1,19 @@
+.new-message {
+    background-color: lightgray;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    // перенести в миксин
+    button {
+        font-size: larger;
+        padding: 5px;
+    }
+    input {
+        font-size: larger;
+        width: 90%;
+        margin: 5px;
+        padding: 5px;
+    }
+}

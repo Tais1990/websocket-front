@@ -1,0 +1,15 @@
+.list-messages {
+    padding: 10px;
+}
+.message {
+    background-color: lightgray;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    button {
+        font-size: larger;
+        padding: 5px;
+    }
+}

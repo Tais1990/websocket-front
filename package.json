@@ -1,0 +1,24 @@
+{
+  "name": "websocket-front",
+  "version": "1.0.0",
+  "author": "Turysheva Kate <tais_kat@list.ru>",
+  "description": "Test Request. Websocket with react query",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "NEXT_PUBLIC_NODE_ENV=dev node server.js",
+    "build": "next build",
+    "start": "NEXT_PUBLIC_NODE_ENV=prod node server.js"
+  },
+  "dependencies": {
+    "@next/font": "13.1.6",
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-query": "^3.39.3",
+    "sass": "^1.58.3",
+    "ws": "^8.16.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3"
+  }
+}
